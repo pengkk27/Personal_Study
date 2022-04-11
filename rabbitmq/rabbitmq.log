@@ -1,0 +1,27 @@
+2022-03-01 17:42:02.976  INFO 15628 --- [main] p.p.rabbitmq.RabbitmqApplicationTests    : Starting RabbitmqApplicationTests using Java 1.8.0_321 on DESKTOP-Q0U4RH0 with PID 15628 (started by 14811 in E:\Projects\IDEA_Projects\MoreStudy\rabbitmq)
+2022-03-01 17:42:02.984 DEBUG 15628 --- [main] p.p.rabbitmq.RabbitmqApplicationTests    : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-01 17:42:02.985  INFO 15628 --- [main] p.p.rabbitmq.RabbitmqApplicationTests    : The following 1 profile is active: "dev"
+2022-03-01 17:42:05.176  INFO 15628 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-03-01 17:42:05.301  INFO 15628 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#2a389173:0/SimpleConnection@100c567f [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54971]
+2022-03-01 17:42:05.309  INFO 15628 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring-boot) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-03-01 17:42:05.415  INFO 15628 --- [main] p.p.rabbitmq.RabbitmqApplicationTests    : Started RabbitmqApplicationTests in 2.969 seconds (JVM running for 4.626)
+2022-03-01 17:42:05.776  INFO 15628 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2022-03-01 17:42:05.779  INFO 15628 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2022-03-01 17:43:21.467  INFO 9604 --- [main] p.p.rabbitmq.RabbitmqApplicationTests    : Starting RabbitmqApplicationTests using Java 1.8.0_321 on DESKTOP-Q0U4RH0 with PID 9604 (started by 14811 in E:\Projects\IDEA_Projects\MoreStudy\rabbitmq)
+2022-03-01 17:43:21.469 DEBUG 9604 --- [main] p.p.rabbitmq.RabbitmqApplicationTests    : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-01 17:43:21.470  INFO 9604 --- [main] p.p.rabbitmq.RabbitmqApplicationTests    : The following 1 profile is active: "dev"
+2022-03-01 17:43:23.311  INFO 9604 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-03-01 17:43:23.387  INFO 9604 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#5e4fa1da:0/SimpleConnection@23b3aa8c [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55030]
+2022-03-01 17:43:23.392  INFO 9604 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring-boot) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-03-01 17:43:23.463  INFO 9604 --- [main] p.p.rabbitmq.RabbitmqApplicationTests    : Started RabbitmqApplicationTests in 2.494 seconds (JVM running for 3.992)
+2022-03-01 17:43:23.895  INFO 9604 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2022-03-01 17:43:24.894  INFO 9604 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2022-03-01 18:00:46.843  INFO 4396 --- [main] p.p.rabbitmq.RabbitmqApplicationTests    : Starting RabbitmqApplicationTests using Java 1.8.0_321 on DESKTOP-Q0U4RH0 with PID 4396 (started by 14811 in E:\Projects\IDEA_Projects\MoreStudy\rabbitmq)
+2022-03-01 18:00:46.845 DEBUG 4396 --- [main] p.p.rabbitmq.RabbitmqApplicationTests    : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-01 18:00:46.846  INFO 4396 --- [main] p.p.rabbitmq.RabbitmqApplicationTests    : The following 1 profile is active: "dev"
+2022-03-01 18:00:48.925  INFO 4396 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-03-01 18:00:49.006  INFO 4396 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#26f96b85:0/SimpleConnection@23f72d88 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57906]
+2022-03-01 18:00:49.011  INFO 4396 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring-boot) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-03-01 18:00:49.080  INFO 4396 --- [main] p.p.rabbitmq.RabbitmqApplicationTests    : Started RabbitmqApplicationTests in 2.786 seconds (JVM running for 4.617)
+2022-03-01 18:00:49.568  INFO 4396 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2022-03-01 18:00:50.450  INFO 4396 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.

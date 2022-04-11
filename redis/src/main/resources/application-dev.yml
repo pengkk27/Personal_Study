@@ -1,0 +1,23 @@
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 123456
+    database: 0
+    lettuce:
+      shutdown-timeout: 200ms
+      pool:
+        max-active: 7
+        max-idle: 7
+        min-idle: 2
+        max-wait: -1ms
+
+
+logging:
+  level:
+    ROOT: info
+    pers:
+      pengkk27: debug
+  file:
+    name: redis.log
+    path: ./logs

@@ -1,0 +1,75 @@
+2022-02-27 22:10:48.776  INFO 11872 --- [main] p.p.mybatis.service.UserServiceTest      : Starting UserServiceTest using Java 1.8.0_321 on DESKTOP-Q0U4RH0 with PID 11872 (started by 14811 in E:\Projects\IDEA_Projects\MoreStudy\mybatis)
+2022-02-27 22:10:48.778 DEBUG 11872 --- [main] p.p.mybatis.service.UserServiceTest      : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-02-27 22:10:48.779  INFO 11872 --- [main] p.p.mybatis.service.UserServiceTest      : No active profile set, falling back to 1 default profile: "default"
+2022-02-27 22:10:51.154  INFO 11872 --- [main] p.p.mybatis.service.UserServiceTest      : Started UserServiceTest in 2.92 seconds (JVM running for 5.446)
+2022-02-27 22:10:51.829  INFO 11872 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-02-27 22:10:52.080 DEBUG 11872 --- [main] p.p.m.c.d.repository.UserMapper.insert   : ==>  Preparing: INSERT INTO t_user ( username, name, password, phone ) VALUES ( ?, ?, ?, ? )
+2022-02-27 22:10:52.124 DEBUG 11872 --- [main] p.p.m.c.d.repository.UserMapper.insert   : ==> Parameters: xiaoxx(String), 小星星(String), 222222(String), 13890907676(String)
+2022-02-27 22:10:52.144 DEBUG 11872 --- [main] p.p.m.c.d.repository.UserMapper.insert   : <==    Updates: 1
+2022-02-27 22:10:52.163 DEBUG 11872 --- [main] p.p.m.c.d.r.UserMapper.selectById        : ==>  Preparing: SELECT id,username,name,password,salt,phone,tips,state,create_time,update_time FROM t_user WHERE id=?
+2022-02-27 22:10:52.164 DEBUG 11872 --- [main] p.p.m.c.d.r.UserMapper.selectById        : ==> Parameters: 3(Integer)
+2022-02-27 22:10:52.281  INFO 11872 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-02-27 22:10:52.298  INFO 11872 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-02-27 22:12:03.702  INFO 16852 --- [main] p.p.mybatis.service.UserServiceTest      : Starting UserServiceTest using Java 1.8.0_321 on DESKTOP-Q0U4RH0 with PID 16852 (started by 14811 in E:\Projects\IDEA_Projects\MoreStudy\mybatis)
+2022-02-27 22:12:03.704 DEBUG 16852 --- [main] p.p.mybatis.service.UserServiceTest      : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-02-27 22:12:03.705  INFO 16852 --- [main] p.p.mybatis.service.UserServiceTest      : No active profile set, falling back to 1 default profile: "default"
+2022-02-27 22:12:05.923  INFO 16852 --- [main] p.p.mybatis.service.UserServiceTest      : Started UserServiceTest in 2.819 seconds (JVM running for 4.46)
+2022-02-27 22:12:06.701  INFO 16852 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-02-27 22:12:06.907 DEBUG 16852 --- [main] p.p.m.c.d.repository.UserMapper.insert   : ==>  Preparing: INSERT INTO t_user ( username, name, password, phone ) VALUES ( ?, ?, ?, ? )
+2022-02-27 22:12:06.943 DEBUG 16852 --- [main] p.p.m.c.d.repository.UserMapper.insert   : ==> Parameters: xiaoxx(String), 小星星(String), 222222(String), 13890907676(String)
+2022-02-27 22:12:06.951 DEBUG 16852 --- [main] p.p.m.c.d.repository.UserMapper.insert   : <==    Updates: 1
+2022-02-27 22:12:06.978 DEBUG 16852 --- [main] p.p.m.c.d.r.UserMapper.selectById        : ==>  Preparing: SELECT id,username,name,password,salt,phone,tips,state,created_time,update_time FROM t_user WHERE id=?
+2022-02-27 22:12:06.979 DEBUG 16852 --- [main] p.p.m.c.d.r.UserMapper.selectById        : ==> Parameters: 4(Integer)
+2022-02-27 22:12:07.097  INFO 16852 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-02-27 22:12:07.108  INFO 16852 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-02-27 22:12:59.266  INFO 16388 --- [main] p.p.mybatis.service.UserServiceTest      : Starting UserServiceTest using Java 1.8.0_321 on DESKTOP-Q0U4RH0 with PID 16388 (started by 14811 in E:\Projects\IDEA_Projects\MoreStudy\mybatis)
+2022-02-27 22:12:59.268 DEBUG 16388 --- [main] p.p.mybatis.service.UserServiceTest      : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-02-27 22:12:59.269  INFO 16388 --- [main] p.p.mybatis.service.UserServiceTest      : No active profile set, falling back to 1 default profile: "default"
+2022-02-27 22:13:01.651  INFO 16388 --- [main] p.p.mybatis.service.UserServiceTest      : Started UserServiceTest in 2.965 seconds (JVM running for 4.684)
+2022-02-27 22:13:02.271  INFO 16388 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-02-27 22:13:02.491 DEBUG 16388 --- [main] p.p.m.c.d.repository.UserMapper.insert   : ==>  Preparing: INSERT INTO t_user ( username, name, password, phone ) VALUES ( ?, ?, ?, ? )
+2022-02-27 22:13:02.531 DEBUG 16388 --- [main] p.p.m.c.d.repository.UserMapper.insert   : ==> Parameters: xiaoxx(String), 小星星(String), 222222(String), 13890907676(String)
+2022-02-27 22:13:02.539 DEBUG 16388 --- [main] p.p.m.c.d.repository.UserMapper.insert   : <==    Updates: 1
+2022-02-27 22:13:02.563 DEBUG 16388 --- [main] p.p.m.c.d.r.UserMapper.selectById        : ==>  Preparing: SELECT id,username,name,password,salt,phone,tips,state,created_time,updated_time FROM t_user WHERE id=?
+2022-02-27 22:13:02.565 DEBUG 16388 --- [main] p.p.m.c.d.r.UserMapper.selectById        : ==> Parameters: 5(Integer)
+2022-02-27 22:13:02.580 DEBUG 16388 --- [main] p.p.m.c.d.r.UserMapper.selectById        : <==      Total: 1
+2022-02-27 22:13:02.594 DEBUG 16388 --- [main] p.p.m.c.d.r.UserMapper.updateById        : ==>  Preparing: UPDATE t_user SET username=?, name=?, password=?, salt=?, phone=?, state=?, created_time=?, updated_time=? WHERE id=?
+2022-02-27 22:13:02.602 DEBUG 16388 --- [main] p.p.m.c.d.r.UserMapper.updateById        : ==> Parameters: xiaoxx(String), 小星星(String), 888888(String), (String), 13890907676(String), 1(Integer), 2022-02-28 06:13:02.0(Timestamp), 2022-02-28 06:13:02.0(Timestamp), 5(Integer)
+2022-02-27 22:13:02.607 DEBUG 16388 --- [main] p.p.m.c.d.r.UserMapper.updateById        : <==    Updates: 1
+2022-02-27 22:13:02.608 DEBUG 16388 --- [main] p.p.m.c.d.r.UserMapper.selectById        : ==>  Preparing: SELECT id,username,name,password,salt,phone,tips,state,created_time,updated_time FROM t_user WHERE id=?
+2022-02-27 22:13:02.609 DEBUG 16388 --- [main] p.p.m.c.d.r.UserMapper.selectById        : ==> Parameters: 5(Integer)
+2022-02-27 22:13:02.611 DEBUG 16388 --- [main] p.p.m.c.d.r.UserMapper.selectById        : <==      Total: 1
+2022-02-27 22:13:02.612 DEBUG 16388 --- [main] p.p.m.c.d.r.UserMapper.deleteById        : ==>  Preparing: DELETE FROM t_user WHERE id=?
+2022-02-27 22:13:02.612 DEBUG 16388 --- [main] p.p.m.c.d.r.UserMapper.deleteById        : ==> Parameters: 5(Integer)
+2022-02-27 22:13:02.618 DEBUG 16388 --- [main] p.p.m.c.d.r.UserMapper.deleteById        : <==    Updates: 1
+2022-02-27 22:13:02.619 DEBUG 16388 --- [main] p.p.m.c.d.r.UserMapper.selectById        : ==>  Preparing: SELECT id,username,name,password,salt,phone,tips,state,created_time,updated_time FROM t_user WHERE id=?
+2022-02-27 22:13:02.620 DEBUG 16388 --- [main] p.p.m.c.d.r.UserMapper.selectById        : ==> Parameters: 5(Integer)
+2022-02-27 22:13:02.621 DEBUG 16388 --- [main] p.p.m.c.d.r.UserMapper.selectById        : <==      Total: 0
+2022-02-27 22:13:02.645  INFO 16388 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-02-27 22:13:02.655  INFO 16388 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-02-27 22:41:26.519  INFO 11768 --- [main] p.p.mybatis.service.UserServiceTest      : Starting UserServiceTest using Java 1.8.0_321 on DESKTOP-Q0U4RH0 with PID 11768 (started by 14811 in E:\Projects\IDEA_Projects\MoreStudy\mybatis)
+2022-02-27 22:41:26.521 DEBUG 11768 --- [main] p.p.mybatis.service.UserServiceTest      : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-02-27 22:41:26.522  INFO 11768 --- [main] p.p.mybatis.service.UserServiceTest      : No active profile set, falling back to 1 default profile: "default"
+2022-02-27 22:41:27.720  INFO 11768 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-02-27 22:41:28.271  INFO 11768 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-02-27 22:41:29.475  INFO 11768 --- [main] p.p.mybatis.service.UserServiceTest      : Started UserServiceTest in 3.579 seconds (JVM running for 5.385)
+2022-02-27 22:41:29.965 DEBUG 11768 --- [main] p.p.m.c.d.repository.UserMapper.insert   : ==>  Preparing: INSERT INTO t_user ( username, name, password, phone ) VALUES ( ?, ?, ?, ? )
+2022-02-27 22:41:30.012 DEBUG 11768 --- [main] p.p.m.c.d.repository.UserMapper.insert   : ==> Parameters: xiaoxx(String), 小星星(String), 222222(String), 13890907676(String)
+2022-02-27 22:41:30.020 DEBUG 11768 --- [main] p.p.m.c.d.repository.UserMapper.insert   : <==    Updates: 1
+2022-02-27 22:41:30.055 DEBUG 11768 --- [main] p.p.m.c.d.r.UserMapper.selectById        : ==>  Preparing: SELECT id,username,name,password,salt,phone,tips,state,created_time,updated_time FROM t_user WHERE id=?
+2022-02-27 22:41:30.056 DEBUG 11768 --- [main] p.p.m.c.d.r.UserMapper.selectById        : ==> Parameters: 6(Integer)
+2022-02-27 22:41:30.074 DEBUG 11768 --- [main] p.p.m.c.d.r.UserMapper.selectById        : <==      Total: 1
+2022-02-27 22:41:30.096 DEBUG 11768 --- [main] p.p.m.c.d.r.UserMapper.updateById        : ==>  Preparing: UPDATE t_user SET username=?, name=?, password=?, salt=?, phone=?, state=?, created_time=?, updated_time=? WHERE id=?
+2022-02-27 22:41:30.109 DEBUG 11768 --- [main] p.p.m.c.d.r.UserMapper.updateById        : ==> Parameters: xiaoxx(String), 小星星(String), 888888(String), (String), 13890907676(String), 1(Integer), 2022-02-28 06:41:30.0(Timestamp), 2022-02-28 06:41:30.0(Timestamp), 6(Integer)
+2022-02-27 22:41:30.115 DEBUG 11768 --- [main] p.p.m.c.d.r.UserMapper.updateById        : <==    Updates: 1
+2022-02-27 22:41:30.116 DEBUG 11768 --- [main] p.p.m.c.d.r.UserMapper.selectById        : ==>  Preparing: SELECT id,username,name,password,salt,phone,tips,state,created_time,updated_time FROM t_user WHERE id=?
+2022-02-27 22:41:30.117 DEBUG 11768 --- [main] p.p.m.c.d.r.UserMapper.selectById        : ==> Parameters: 6(Integer)
+2022-02-27 22:41:30.119 DEBUG 11768 --- [main] p.p.m.c.d.r.UserMapper.selectById        : <==      Total: 1
+2022-02-27 22:41:30.121 DEBUG 11768 --- [main] p.p.m.c.d.r.UserMapper.deleteById        : ==>  Preparing: DELETE FROM t_user WHERE id=?
+2022-02-27 22:41:30.121 DEBUG 11768 --- [main] p.p.m.c.d.r.UserMapper.deleteById        : ==> Parameters: 6(Integer)
+2022-02-27 22:41:30.128 DEBUG 11768 --- [main] p.p.m.c.d.r.UserMapper.deleteById        : <==    Updates: 1
+2022-02-27 22:41:30.129 DEBUG 11768 --- [main] p.p.m.c.d.r.UserMapper.selectById        : ==>  Preparing: SELECT id,username,name,password,salt,phone,tips,state,created_time,updated_time FROM t_user WHERE id=?
+2022-02-27 22:41:30.130 DEBUG 11768 --- [main] p.p.m.c.d.r.UserMapper.selectById        : ==> Parameters: 6(Integer)
+2022-02-27 22:41:30.132 DEBUG 11768 --- [main] p.p.m.c.d.r.UserMapper.selectById        : <==      Total: 0
+2022-02-27 22:41:30.172  INFO 11768 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-02-27 22:41:30.193  INFO 11768 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
