@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="pers.pengkk27.mybatislearn.repository.mapper2.BookMapper">
+
+    <!--select查询语句-->
+    <select id="listBook" resultType="pers.pengkk27.mybatislearn.repository.entity.Book">
+        select id, name from book;
+    </select>
+
+
+
+    <insert id="insertBook" parameterType="pers.pengkk27.mybatislearn.repository.entity.Book">
+        insert into book (id, name)
+        values (#{id}, #{name});
+    </insert>
+
+</mapper>

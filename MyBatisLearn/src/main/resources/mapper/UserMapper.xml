@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="pers.pengkk27.mybatislearn.repository.mapper.UserMapper">
+
+    <!--select查询语句-->
+    <select id="listUser" resultType="pers.pengkk27.mybatislearn.repository.entity.User">
+        select id, name, age
+        from user;
+    </select>
+
+    <select id="getUserById" resultType="pers.pengkk27.mybatislearn.repository.entity.User">
+        select id, name, age
+        from user
+        where id = #{id};
+    </select>
+
+    <insert id="insertUser" parameterType="pers.pengkk27.mybatislearn.repository.entity.User">
+        insert into user (id, name, age)
+        values (#{id}, #{name}, #{age});
+    </insert>
+
+    <insert id="insertUserBatch" parameterType="pers.pengkk27.mybatislearn.repository.entity.User">
+        insert into user (id, name, age) values
+        <foreach collection="userList" index="index" item="item" separator=",">
+            (#{item.id}, #{item.name}, #{item.age})
+        </foreach>
+    </insert>
+
+    <update id="updateUser" parameterType="pers.pengkk27.mybatislearn.repository.entity.User">
+        update user
+        <set>
+            <if test="name != null">name = #{name},</if>
+            <if test="age != null">age = #{age},</if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteAllUser">
+        delete
+        from user;
+    </delete>
+
+    <delete id="deleteUserById">
+        delete
+        from user
+        where id = #{id};
+    </delete>
+</mapper>
