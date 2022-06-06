@@ -1,0 +1,5 @@
+spring:
+  thymeleaf:
+    encoding: utf-8
+    mode: html
+    cache: false
